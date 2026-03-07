@@ -22,7 +22,7 @@ Objetivos del proyecto
 El grafo utilizado en el ejemplo está representado mediante un diccionario en Python:
 
 
-//SE PUEDE VER EN EL REPOSITORIO COMO CAPTURA DE PANTALLA//
+//SE PUEDE VER EN EL REPOSITORIO COMO GRAFO VISUAL//
 
 2. Representación en código:
 
@@ -35,3 +35,61 @@ grafo = {
     'F': []
 }
 -----------------------------------------------------------------------------------------------------------------------------
+
+Implementación de los algoritmos
+
+* BFS (Breadth First Search)
+
+El algoritmo BFS explora el grafo nivel por nivel, visitando primero todos los nodos vecinos antes de avanzar al siguiente nivel.
+Utiliza una cola (Queue) para gestionar los nodos pendientes de explorar.
+
+</> CODE PHYTON:
+------------------
+from collections import deque
+
+def bfs(grafo, inicio):
+    visitados = []
+    cola = deque([inicio])
+    
+    while cola:
+        nodo = cola.popleft()
+
+        if nodo not in visitados:
+            visitados.append(nodo)
+            cola.extend(grafo[nodo])
+
+    return visitados
+--------------------
+
+* DFS (Depth First Search)
+
+El algoritmo DFS explora el grafo profundizando lo más posible antes de retroceder.
+Normalmente se implementa utilizando recursión o una pila (Stack).
+
+</> CODE PHYTON
+---------------------------
+def dfs(grafo, inicio, visitados=None):
+    if visitados is None:
+        visitados = []
+
+    visitados.append(inicio)
+
+    for vecino in grafo[inicio]:
+        if vecino not in visitados:
+            dfs(grafo, vecino, visitados)
+
+    return visitados
+--------------------------
+
+* Ejecución del programa
+print("Recorrido BFS:", bfs(grafo, 'A'))
+print("Recorrido DFS:", dfs(grafo, 'A'))
+
+Resultado esperado
+
+Recorrido BFS: ['A', 'B', 'C', 'D', 'E', 'F']
+Recorrido DFS: ['A', 'B', 'D', 'E', 'F', 'C']
+
+al ejecutar el codigo deberia de mostrar este resultado de como es el recorrido el grafo en BFS y DFS.
+
+MUCHAS GRACIAS <3
