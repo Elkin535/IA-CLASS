@@ -45,11 +45,11 @@ Utiliza una cola (Queue) para gestionar los nodos pendientes de explorar.
 
 </> CODE PHYTON:
 ------------------
-from collections import deque
+    from collections import deque
 
-def bfs(grafo, inicio):
-    visitados = []
-    cola = deque([inicio])
+    def bfs(grafo, inicio):
+        visitados = []
+        cola = deque([inicio])
     
     while cola:
         nodo = cola.popleft()
@@ -68,9 +68,9 @@ Normalmente se implementa utilizando recursión o una pila (Stack).
 
 </> CODE PHYTON
 ---------------------------
-def dfs(grafo, inicio, visitados=None):
-    if visitados is None:
-        visitados = []
+    def dfs(grafo, inicio, visitados=None):
+        if visitados is None:
+            visitados = []
 
     visitados.append(inicio)
 
