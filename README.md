@@ -17,7 +17,21 @@ Objetivos del proyecto
 * Aplicarlos sobre un grafo pequeño representado mediante una estructura de datos.
 * Comparar los resultados obtenidos entre ambos algoritmos.
 * Analizar el camino recorrido y el uso de memoria de cada método.
-
-Estructura del grafo
+----------------------------------------------------------------------------------------------------------------------------
+1. Estructura del grafo
 El grafo utilizado en el ejemplo está representado mediante un diccionario en Python:
 
+
+//SE PUEDE VER EN EL REPOSITORIO COMO CAPTURA DE PANTALLA//
+
+2. Representación en código:
+
+grafo = {
+    'A': ['B', 'C'],
+    'B': ['D', 'E'],
+    'C': ['F'],
+    'D': [],
+    'E': ['F'],
+    'F': []
+}
+-----------------------------------------------------------------------------------------------------------------------------
