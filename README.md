@@ -2,7 +2,9 @@
 trabajos elaborados en la clase de inteligencia artificial
 
 Implementación de BFS y DFS en Python
-
+--------------------------------
+nota: existen dos archivos tipo .ipyng para el cobab, el que se llama iaPRIMERA.ipynb es donde se muestra en resultado el recorrido que hace el grafo en el algoritmo y el que se llama BFS_y_DFS.pynb es el que se muesta mas visual como un gif el recorrido en los nodos, ambos hacer el recorrido de profundida y anchura. 
+-------------------------------
 Descripción
 Este proyecto presenta la implementación de dos algoritmos fundamentales de búsqueda en grafos:
 * BFS (Breadth First Search) – Búsqueda en anchura
