@@ -1,4 +1,4 @@
-#SEGUNDO CORTE
+# SEGUNDO CORTE
 
 --------------------------------------------------------------------------------
 ##Investigación y Práctica con la Librería Pandas 🐼
