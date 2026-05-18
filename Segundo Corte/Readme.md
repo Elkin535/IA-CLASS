@@ -1,3 +1,5 @@
+**SEGUNDO CORTE**
+
 --------------------------------------------------------------------------------
 Investigación y Práctica con la Librería Pandas 🐼
 Este repositorio contiene una investigación exhaustiva y ejercicios prácticos sobre la librería Pandas de Python, desarrollados en un entorno de Google Colab.
