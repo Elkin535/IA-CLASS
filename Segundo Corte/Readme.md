@@ -1,4 +1,10 @@
 # SEGUNDO CORTE
+<img width="1167" height="350" alt="image" src="https://github.com/user-attachments/assets/b7a7457e-bb9b-4f77-b28b-83db3fb2b092" />
+
+-------------------------------------------------------------------------------
+## *Nombre:* Elkin Andres Chalarca Tangarife
+## *Materia:* Inteligencia Artificial
+## *Programa:* Ingenieria de sistemas
 
 --------------------------------------------------------------------------------
 ## Investigación y Práctica con la Librería Pandas 🐼
