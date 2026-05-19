@@ -92,9 +92,11 @@ Creación de un DataFrame: Se generaron tablas de datos a partir de estructuras 
 <img width="494" height="359" alt="image" src="https://github.com/user-attachments/assets/991a42d7-1586-4f8f-87a6-17419e4cfbae" />
 
 Operaciones entre columnas: Se realizaron cálculos aritméticos directos entre columnas, como restas o aplicaciones de funciones lambda para transformar valores
+
 <img width="500" height="231" alt="image" src="https://github.com/user-attachments/assets/924d3468-c201-450b-a68b-c52259f66aca" />
 
 Lectura de archivos CSV: Uso del método read_csv para importar conjuntos de datos externos (como el dataset Iris) para su análisis
+
 <img width="491" height="402" alt="image" src="https://github.com/user-attachments/assets/a7460718-7026-470c-a97a-3852cd3063fc" />
 
 Trabajo con datos sintéticos y valores nulos: Se practicó la detección de valores perdidos (NaN) y su tratamiento mediante el llenado de datos con el método fillna()
