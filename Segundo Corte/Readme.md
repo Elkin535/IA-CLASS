@@ -82,7 +82,8 @@ Pandas es considerada una herramienta esencial en el flujo de trabajo de la Cien
 --------------------------------------------------------------------------------
 ## 💻 Explicación de los ejercicios realizados
 En el Notebook adjunto se desarrollaron los siguientes puntos prácticos:
-Creación de un DataFrame: Se generaron tablas de datos a partir de estructuras nativas de Python como diccionarios
+Creación de un DataFrame: Se generaron tablas de datos a partir de estructuras nativas de Python como diccionarios.
+
 <img width="494" height="359" alt="image" src="https://github.com/user-attachments/assets/991a42d7-1586-4f8f-87a6-17419e4cfbae" />
 
 Operaciones entre columnas: Se realizaron cálculos aritméticos directos entre columnas, como restas o aplicaciones de funciones lambda para transformar valores
