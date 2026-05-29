@@ -1,8 +1,4 @@
-
-<p align="center">
-  <img src="images/logo-unipacifico.png" width="650">
-</p>
-
+<img width="650" height="157" alt="image" src="https://github.com/user-attachments/assets/724e9166-36d8-4719-b85e-721b3b4065b7" />
 
 # 📊 Taller Práctico de Pandas y Operaciones Matemáticas
 
