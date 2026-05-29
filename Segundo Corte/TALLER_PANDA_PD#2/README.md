@@ -1,13 +1,11 @@
 <img width="650" height="157" alt="image" src="https://github.com/user-attachments/assets/724e9166-36d8-4719-b85e-721b3b4065b7" />
 
-# 📊 Taller Práctico de Pandas y Operaciones Matemáticas
+# 📊 Taller de Análisis de Datos con Pandas y NumPy
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-orange)
 ![Estado](https://img.shields.io/badge/Estado-Completado-success)
-
-# Taller de Análisis de Datos con Pandas y NumPy
 
 ---
 
