@@ -7,43 +7,52 @@
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-orange)
 ![Estado](https://img.shields.io/badge/Estado-Completado-success)
 
----
-
-#  Introducción
-
-## ¿Qué es Pandas?
-
-pandas es una librería de Python enfocada en el análisis y manipulación de datos. Permite trabajar con estructuras como DataFrames y Series para organizar, procesar y analizar información de manera eficiente.
-
-Entre sus principales funcionalidades se encuentran:
-
-* Manipulación de datos
-* Filtrado de información
-* Operaciones matemáticas
-* Estadísticas descriptivas
-* Limpieza y organización de datos
-* Exportación de archivos
-
-Pandas es ampliamente utilizada en Ciencia de Datos, Inteligencia Artificial y análisis estadístico.
+# Taller de Análisis de Datos con Pandas y NumPy
 
 ---
 
-## ¿Qué es NumPy?
+## Introducción
 
-NumPy es una librería de Python especializada en cálculos numéricos y científicos. Proporciona estructuras de datos optimizadas y funciones matemáticas avanzadas que permiten realizar operaciones de forma rápida y eficiente.
+En este trabajo se desarrolló un análisis de datos utilizando Python y las librerías Pandas y NumPy. El objetivo principal fue aprender a manipular información mediante DataFrames, aplicar operaciones matemáticas y realizar cálculos estadísticos sobre un conjunto de datos relacionado con productos tecnológicos y artículos de oficina.
 
-NumPy sirve como base para múltiples librerías de análisis de datos, incluyendo Pandas.
-
----
-
-#  Objetivo del Taller
-
-Aplicar conceptos fundamentales de análisis de datos utilizando la librería Pandas en Python, realizando operaciones matemáticas, estadísticas y manipulación de columnas sobre un conjunto de datos de productos tecnológicos y de oficina.
+Durante el desarrollo del taller se realizaron diferentes procesos como creación de columnas, cálculos porcentuales, análisis estadísticos, filtrado de datos y organización de información.
 
 ---
 
-#  Herramientas Utilizadas
+# ¿Qué es Pandas?
 
+Pandas es una librería de Python que permite trabajar con datos de forma organizada y sencilla. Se utiliza principalmente para analizar, manipular y procesar información mediante estructuras llamadas DataFrames y Series.
+
+Con Pandas es posible:
+
+* Organizar datos
+* Filtrar información
+* Crear nuevas columnas
+* Realizar cálculos matemáticos
+* Aplicar estadísticas
+* Exportar archivos
+
+Actualmente es una de las herramientas más utilizadas en análisis de datos y ciencia de datos.
+
+---
+
+# ¿Qué es NumPy?
+
+NumPy es una librería enfocada en operaciones matemáticas y cálculos numéricos. Permite trabajar de manera más rápida y eficiente con arreglos y funciones matemáticas avanzadas.
+
+Además, muchas librerías como Pandas utilizan NumPy como base para realizar diferentes operaciones.
+
+---
+
+# Objetivo del Taller
+
+Aplicar conceptos básicos de análisis de datos utilizando Python, realizando operaciones matemáticas y estadísticas sobre un conjunto de datos mediante el uso de Pandas y NumPy.
+
+---
+
+# Herramientas Utilizadas
+
+* Python
 * Pandas
 * NumPy
 * Jupyter Notebook
@@ -52,9 +61,9 @@ Aplicar conceptos fundamentales de análisis de datos utilizando la librería Pa
 
 ---
 
-#  Dataset Utilizado
+# Información del Dataset
 
-El conjunto de datos utilizado contiene información relacionada con productos tecnológicos y artículos de oficina.
+El conjunto de datos utilizado contiene información de diferentes productos, incluyendo precio, cantidad, costo de envío y categoría.
 
 | Producto   | Precio  | Cantidad | Costo_Envio | Categoria  |
 | ---------- | ------- | -------- | ----------- | ---------- |
@@ -65,132 +74,143 @@ El conjunto de datos utilizado contiene información relacionada con productos t
 | Escritorio | 900000  | 3        | 40000       | Oficina    |
 | Monitor    | 1100000 | 6        | 35000       | Tecnología |
 
-Además, se agregaron 54 productos tecnológicos adicionales para ampliar el análisis de datos.
+Además de estos registros, se agregaron más productos con el fin de trabajar con una mayor cantidad de datos y obtener resultados más completos.
 
 ---
 
-#  Desarrollo del Taller
+# Desarrollo del Taller
 
 ---
 
-# 🔹 Punto 1 – Creación y Exploración del DataFrame
+## Punto 1. Creación y Exploración del DataFrame
 
-En esta sección se realizó:
+En esta parte se creó el DataFrame utilizando Pandas y posteriormente se realizó una exploración general de los datos.
 
-* Crear el DataFrame utilizando Pandas
-* Mostrar las primeras 5 y las 10 últimas filas del DataFrame
+Actividades realizadas:
+
+* Crear el DataFrame
+* Mostrar las primeras filas
+* Mostrar las últimas filas
 * Identificar el tipo de dato de cada columna
-* Mostrar el tamaño del DataFrame (filas y columnas)
-* Generar una descripción estadística general del conjunto de datos
+* Verificar la cantidad de filas y columnas
+* Generar estadísticas descriptivas
 
 ---
 
-# 🔹 Punto 2 – Operaciones Matemáticas entre Columnas
+## Punto 2. Operaciones Matemáticas
 
-En esta sección se realizó:
+En esta sección se realizaron diferentes operaciones utilizando las columnas del DataFrame.
 
-* Crear una nueva columna llamada Total_Venta = Precio × Cantidad
-* Crear una nueva columna llamada Costo_Total = Total_Venta + Costo_Envio
-* Calcular el promedio del Total_Venta
-* Identificar el producto con mayor Total_Venta
-* Identificar el producto con menor Total_Venta
+Procesos realizados:
 
----
-
-# 🔹 Punto 3 – Porcentajes y Análisis
-
-En esta sección se realizó:
-
-* Crear una columna llamada IVA que represente el 19% del Total_Venta
-* Crear una columna llamada Ganancia_Estimada correspondiente al 25% del Total_Venta
-* Crear una columna llamada Perdida_Estimada correspondiente al 0.05% del Total_Venta
-* Calcular qué porcentaje representa cada producto respecto al total general de ventas
-* Mostrar únicamente los productos cuyo porcentaje de ventas sea superior al 15%
-
+* Crear la columna Total_Venta
+* Crear la columna Costo_Total
+* Calcular el promedio de ventas
+* Identificar el producto con mayor venta
+* Identificar el producto con menor venta
 
 ---
 
-# 🔹 Punto 4 – Estadística Descriptiva
+## Punto 3. Análisis Porcentual
 
-En esta sección se realizó:
+En esta parte se realizaron cálculos relacionados con porcentajes y estimaciones.
 
-* Calcular la media, mediana y moda de la columna Precio
-* Calcular la desviación estándar de la columna Cantidad
-* Calcular el valor máximo y mínimo de Total_Venta
-* Explicar brevemente qué significa cada medida estadística obtenida
+Actividades desarrolladas:
 
-## Interpretación de las Medidas Estadísticas
-
-* **Media:** representa el promedio general de los precios
-* **Mediana:** representa el valor central del conjunto de datos
-* **Moda:** representa el valor que más se repite
-* **Desviación estándar:** mide la dispersión de los datos respecto a la media
+* Crear la columna IVA correspondiente al 19%
+* Crear la columna Ganancia_Estimada equivalente al 25%
+* Crear la columna Perdida_Estimada equivalente al 0.05%
+* Calcular el porcentaje de participación de cada producto
+* Filtrar productos con porcentaje superior al 15%
 
 ---
 
-# 🔹 Punto 5 – Filtrado y Ordenamiento
+## Punto 4. Estadística Descriptiva
 
-En esta sección se realizó:
+Se aplicaron medidas estadísticas básicas sobre las columnas numéricas del DataFrame.
 
-* Mostrar únicamente los productos de la categoría Tecnología
-* Ordenar los productos de mayor a menor según Total_Venta
+Cálculos realizados:
+
+* Media de los precios
+* Mediana de los precios
+* Moda de los precios
+* Desviación estándar de la cantidad
+* Valor máximo de ventas
+* Valor mínimo de ventas
+
+### Interpretación
+
+* La media representa el promedio de los datos.
+* La mediana corresponde al valor central.
+* La moda indica el valor que más se repite.
+* La desviación estándar permite identificar qué tan dispersos están los datos respecto al promedio.
 
 ---
 
-#  Resultados Obtenidos
+## Punto 5. Filtrado y Ordenamiento
 
-Durante el desarrollo del taller se logró:
+Finalmente, se realizaron filtros y organización de la información.
+
+Procesos realizados:
+
+* Mostrar únicamente productos de Tecnología
+* Ordenar productos de mayor a menor según Total_Venta
+
+---
+
+# Resultados Obtenidos
+
+Con el desarrollo de este taller fue posible:
 
 * Manipular datos utilizando Pandas
-* Aplicar operaciones matemáticas y estadísticas
-* Realizar análisis porcentuales
-* Filtrar y organizar información
-* Exportar archivos Excel
-* Comprender el funcionamiento de los DataFrames
-* Mejorar la organización de proyectos en GitHub
+* Aplicar operaciones matemáticas
+* Realizar análisis estadísticos básicos
+* Organizar información mediante filtros
+* Comprender el uso de DataFrames
+* Mejorar el manejo de proyectos en GitHub
 
 ---
 
-#  Aprendizajes Adquiridos
+# Aprendizajes
 
-* Uso de la librería Pandas
-* Manipulación de DataFrames
-* Aplicación de estadísticas descriptivas
+Durante el desarrollo del trabajo se fortalecieron conocimientos relacionados con:
+
+* Uso de Pandas
+* Manipulación de datos
+* Estadística descriptiva
 * Operaciones matemáticas en Python
-* Filtrado y ordenamiento de datos
-* Exportación de información a Excel
-* Documentación de proyectos en GitHub
+* Filtrado y ordenamiento de información
+* Documentación en Markdown
 
 ---
 
-#  Información Académica
+# Información Académica
 
 | Campo       | Información              |
 | ----------- | ------------------------ |
 | Universidad | Universidad del Pacífico |
 | Programa    | Ingeniería de Sistemas   |
 | Asignatura  | Inteligencia Artificial  |
-| Semestre    | 8°                       |
-| Corte       | II                       |
+| Semestre    | Octavo                   |
+| Corte       | Segundo                  |
 | Fecha       | 29/05/2026               |
 
 ---
 
-#  Integrantes
+# Integrantes
 
-* KAROL YISNEY CAICEDO MORENO
 * ELKIN ANDRES CHALARCA TANGARIFE
+* KAROL YISNEY CAICEDO MORENO
 * LUISA FERNANDA GONZALEZ DELGADO
 * DAIRON VALENCIA CAMPAZ
 
 ---
 
-#  Conclusión
+# Conclusión
 
-Este taller permitió comprender la importancia del análisis de datos mediante herramientas como Pandas y NumPy en Python. A través del desarrollo de operaciones matemáticas, estadísticas y manipulación de información, se fortalecieron habilidades fundamentales para el procesamiento y análisis de datos.
+Este taller permitió comprender la importancia del análisis de datos utilizando herramientas como Pandas y NumPy. A través de diferentes ejercicios se lograron aplicar operaciones matemáticas, cálculos estadísticos y procesos de organización de información.
 
-Además, se logró mejorar la organización y documentación de proyectos utilizando GitHub y archivos README en formato Markdown, facilitando la presentación profesional del trabajo académico.
+Además, el trabajo ayudó a mejorar habilidades relacionadas con programación en Python, análisis de datos y documentación de proyectos mediante GitHub y archivos README en formato Markdown.
 
 ---
-
 
