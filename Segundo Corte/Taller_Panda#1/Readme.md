@@ -1,4 +1,4 @@
-<img width="2874" height="1614" alt="image" src="https://github.com/user-attachments/assets/c64180ba-1e75-4aba-8885-13de42652305" />
+<img width="100%" height="auto" alt="image" src="https://github.com/user-attachments/assets/c64180ba-1e75-4aba-8885-13de42652305" />
 
 
 ## Investigación y Práctica con la Librería Pandas 🐼
