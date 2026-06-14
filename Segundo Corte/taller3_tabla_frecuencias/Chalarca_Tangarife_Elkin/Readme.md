@@ -18,7 +18,7 @@ A partir de la muestra de $N = 50$ observaciones del conjunto de datos, se deter
 * **Valor Mínimo ($Min$):** 30 apps
 * **Valor Máximo ($Max$):** 132 apps
 * **Rango ($R$):** 102
-* **Número de Intervalos ($k$):** 7 (Calculado mediante la Regla de Sturges: $k = 1 + 3.322 \cdot \log_{10}(50)$)
+* **Número de Intervalos ($k$):** 7 (Calculado mediante la Regla de Sturges: k = 1 + 3.322 * log_{10}(50)
 * **Amplitud de Clase ($A$):** 15 (Aproximado para manejo de variables discretas)
 
 ---
